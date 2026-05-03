@@ -1,0 +1,25 @@
+# ── Credentiale / Secrete ────────────────────────────────────────────────────
+config.js
+*.local.js
+.env
+.env.*
+!.env.example
+
+# ── Android build ────────────────────────────────────────────────────────────
+MonitorSanatate/.gradle/
+MonitorSanatate/app/build/
+MonitorSanatate/build/
+MonitorSanatate/local.properties
+MonitorSanatate/*.jks
+MonitorSanatate/*.keystore
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Archive ──────────────────────────────────────────────────────────────────
+*.zip
